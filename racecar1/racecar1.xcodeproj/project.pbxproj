@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1D9B6A2088B41700EA79C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D9B692088B41700EA79C7 /* AppDelegate.swift */; };
+		BC1D9B6C2088B41700EA79C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D9B6B2088B41700EA79C7 /* ViewController.swift */; };
+		BC1D9B6F2088B41700EA79C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B6D2088B41700EA79C7 /* Main.storyboard */; };
+		BC1D9B712088B41800EA79C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B702088B41800EA79C7 /* Assets.xcassets */; };
+		BC1D9B742088B41800EA79C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B722088B41800EA79C7 /* LaunchScreen.storyboard */; };
+		BC1D9B7F2088B41800EA79C7 /* racecar1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D9B7E2088B41800EA79C7 /* racecar1Tests.swift */; };
+		BC1D9B8A2088B41900EA79C7 /* racecar1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D9B892088B41900EA79C7 /* racecar1UITests.swift */; };
+		BC1D9BA62088B4DD00EA79C7 /* road5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B972088B4DC00EA79C7 /* road5.png */; };
+		BC1D9BA72088B4DD00EA79C7 /* road6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B982088B4DC00EA79C7 /* road6.png */; };
+		BC1D9BA82088B4DD00EA79C7 /* road13.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B992088B4DC00EA79C7 /* road13.png */; };
+		BC1D9BA92088B4DD00EA79C7 /* road15.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B9A2088B4DC00EA79C7 /* road15.png */; };
+		BC1D9BAA2088B4DD00EA79C7 /* road16.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B9B2088B4DC00EA79C7 /* road16.png */; };
+		BC1D9BAB2088B4DD00EA79C7 /* road10.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B9C2088B4DC00EA79C7 /* road10.png */; };
+		BC1D9BAC2088B4DD00EA79C7 /* road9.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B9D2088B4DD00EA79C7 /* road9.png */; };
+		BC1D9BAD2088B4DD00EA79C7 /* road11.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B9E2088B4DD00EA79C7 /* road11.png */; };
+		BC1D9BAE2088B4DD00EA79C7 /* road8.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9B9F2088B4DD00EA79C7 /* road8.png */; };
+		BC1D9BAF2088B4DD00EA79C7 /* road4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9BA02088B4DD00EA79C7 /* road4.png */; };
+		BC1D9BB22088B4DD00EA79C7 /* road12.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9BA32088B4DD00EA79C7 /* road12.png */; };
+		BC1D9BB32088B4DD00EA79C7 /* road14.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9BA42088B4DD00EA79C7 /* road14.png */; };
+		BC1D9BB42088B4DD00EA79C7 /* road7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9BA52088B4DD00EA79C7 /* road7.png */; };
+		BC1D9BB62088C17D00EA79C7 /* racecarimageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D9BB52088C17D00EA79C7 /* racecarimageview.swift */; };
+		BC1D9BB82088C31B00EA79C7 /* car0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9BB72088C31B00EA79C7 /* car0.png */; };
+		BC1D9C3F2088FB3600EA79C7 /* car6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9C3D2088FB3600EA79C7 /* car6.png */; };
+		BC1D9C402088FB3600EA79C7 /* car5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9C3E2088FB3600EA79C7 /* car5.png */; };
+		BC1D9C452089379900EA79C7 /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9C412089379800EA79C7 /* car1.png */; };
+		BC1D9C462089379900EA79C7 /* car3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9C422089379900EA79C7 /* car3.png */; };
+		BC1D9C472089379900EA79C7 /* car4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9C432089379900EA79C7 /* car4.png */; };
+		BC1D9C482089379900EA79C7 /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1D9C442089379900EA79C7 /* car2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1D9B7B2088B41800EA79C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1D9B5E2088B41700EA79C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1D9B652088B41700EA79C7;
+			remoteInfo = racecar1;
+		};
+		BC1D9B862088B41800EA79C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1D9B5E2088B41700EA79C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1D9B652088B41700EA79C7;
+			remoteInfo = racecar1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC1D9B662088B41700EA79C7 /* racecar1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = racecar1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1D9B692088B41700EA79C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC1D9B6B2088B41700EA79C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC1D9B6E2088B41700EA79C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC1D9B702088B41800EA79C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC1D9B732088B41800EA79C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC1D9B752088B41800EA79C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1D9B7A2088B41800EA79C7 /* racecar1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = racecar1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1D9B7E2088B41800EA79C7 /* racecar1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racecar1Tests.swift; sourceTree = "<group>"; };
+		BC1D9B802088B41800EA79C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1D9B852088B41800EA79C7 /* racecar1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = racecar1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1D9B892088B41900EA79C7 /* racecar1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racecar1UITests.swift; sourceTree = "<group>"; };
+		BC1D9B8B2088B41900EA79C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1D9B972088B4DC00EA79C7 /* road5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road5.png; path = ../../../../images/road5.png; sourceTree = "<group>"; };
+		BC1D9B982088B4DC00EA79C7 /* road6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road6.png; path = ../../../../images/road6.png; sourceTree = "<group>"; };
+		BC1D9B992088B4DC00EA79C7 /* road13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road13.png; path = ../../../../images/road13.png; sourceTree = "<group>"; };
+		BC1D9B9A2088B4DC00EA79C7 /* road15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road15.png; path = ../../../../images/road15.png; sourceTree = "<group>"; };
+		BC1D9B9B2088B4DC00EA79C7 /* road16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road16.png; path = ../../../../images/road16.png; sourceTree = "<group>"; };
+		BC1D9B9C2088B4DC00EA79C7 /* road10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road10.png; path = ../../../../images/road10.png; sourceTree = "<group>"; };
+		BC1D9B9D2088B4DD00EA79C7 /* road9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road9.png; path = ../../../../images/road9.png; sourceTree = "<group>"; };
+		BC1D9B9E2088B4DD00EA79C7 /* road11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road11.png; path = ../../../../images/road11.png; sourceTree = "<group>"; };
+		BC1D9B9F2088B4DD00EA79C7 /* road8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road8.png; path = ../../../../images/road8.png; sourceTree = "<group>"; };
+		BC1D9BA02088B4DD00EA79C7 /* road4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road4.png; path = ../../../../images/road4.png; sourceTree = "<group>"; };
+		BC1D9BA32088B4DD00EA79C7 /* road12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road12.png; path = ../../../../images/road12.png; sourceTree = "<group>"; };
+		BC1D9BA42088B4DD00EA79C7 /* road14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road14.png; path = ../../../../images/road14.png; sourceTree = "<group>"; };
+		BC1D9BA52088B4DD00EA79C7 /* road7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road7.png; path = ../../../../images/road7.png; sourceTree = "<group>"; };
+		BC1D9BB52088C17D00EA79C7 /* racecarimageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racecarimageview.swift; sourceTree = "<group>"; };
+		BC1D9BB72088C31B00EA79C7 /* car0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car0.png; path = ../../../../images/car0.png; sourceTree = "<group>"; };
+		BC1D9C3D2088FB3600EA79C7 /* car6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car6.png; path = ../../../../images/car6.png; sourceTree = "<group>"; };
+		BC1D9C3E2088FB3600EA79C7 /* car5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car5.png; path = ../../../../images/car5.png; sourceTree = "<group>"; };
+		BC1D9C412089379800EA79C7 /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car1.png; path = ../../../images/car1.png; sourceTree = "<group>"; };
+		BC1D9C422089379900EA79C7 /* car3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car3.png; path = ../../../images/car3.png; sourceTree = "<group>"; };
+		BC1D9C432089379900EA79C7 /* car4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car4.png; path = ../../../images/car4.png; sourceTree = "<group>"; };
+		BC1D9C442089379900EA79C7 /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car2.png; path = ../../../images/car2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1D9B632088B41700EA79C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1D9B772088B41800EA79C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1D9B822088B41800EA79C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1D9B5D2088B41700EA79C7 = {
+			isa = PBXGroup;
+			children = (
+				BC1D9B682088B41700EA79C7 /* racecar1 */,
+				BC1D9B7D2088B41800EA79C7 /* racecar1Tests */,
+				BC1D9B882088B41900EA79C7 /* racecar1UITests */,
+				BC1D9B672088B41700EA79C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1D9B672088B41700EA79C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D9B662088B41700EA79C7 /* racecar1.app */,
+				BC1D9B7A2088B41800EA79C7 /* racecar1Tests.xctest */,
+				BC1D9B852088B41800EA79C7 /* racecar1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1D9B682088B41700EA79C7 /* racecar1 */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D9B692088B41700EA79C7 /* AppDelegate.swift */,
+				BC1D9BA02088B4DD00EA79C7 /* road4.png */,
+				BC1D9B972088B4DC00EA79C7 /* road5.png */,
+				BC1D9B982088B4DC00EA79C7 /* road6.png */,
+				BC1D9BA52088B4DD00EA79C7 /* road7.png */,
+				BC1D9B9F2088B4DD00EA79C7 /* road8.png */,
+				BC1D9B9D2088B4DD00EA79C7 /* road9.png */,
+				BC1D9B9C2088B4DC00EA79C7 /* road10.png */,
+				BC1D9B9E2088B4DD00EA79C7 /* road11.png */,
+				BC1D9BA32088B4DD00EA79C7 /* road12.png */,
+				BC1D9B992088B4DC00EA79C7 /* road13.png */,
+				BC1D9BA42088B4DD00EA79C7 /* road14.png */,
+				BC1D9B9A2088B4DC00EA79C7 /* road15.png */,
+				BC1D9B9B2088B4DC00EA79C7 /* road16.png */,
+				BC1D9B6B2088B41700EA79C7 /* ViewController.swift */,
+				BC1D9C412089379800EA79C7 /* car1.png */,
+				BC1D9C442089379900EA79C7 /* car2.png */,
+				BC1D9C422089379900EA79C7 /* car3.png */,
+				BC1D9C432089379900EA79C7 /* car4.png */,
+				BC1D9B6D2088B41700EA79C7 /* Main.storyboard */,
+				BC1D9C3E2088FB3600EA79C7 /* car5.png */,
+				BC1D9C3D2088FB3600EA79C7 /* car6.png */,
+				BC1D9BB72088C31B00EA79C7 /* car0.png */,
+				BC1D9BB52088C17D00EA79C7 /* racecarimageview.swift */,
+				BC1D9B702088B41800EA79C7 /* Assets.xcassets */,
+				BC1D9B722088B41800EA79C7 /* LaunchScreen.storyboard */,
+				BC1D9B752088B41800EA79C7 /* Info.plist */,
+			);
+			path = racecar1;
+			sourceTree = "<group>";
+		};
+		BC1D9B7D2088B41800EA79C7 /* racecar1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D9B7E2088B41800EA79C7 /* racecar1Tests.swift */,
+				BC1D9B802088B41800EA79C7 /* Info.plist */,
+			);
+			path = racecar1Tests;
+			sourceTree = "<group>";
+		};
+		BC1D9B882088B41900EA79C7 /* racecar1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1D9B892088B41900EA79C7 /* racecar1UITests.swift */,
+				BC1D9B8B2088B41900EA79C7 /* Info.plist */,
+			);
+			path = racecar1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC1D9B652088B41700EA79C7 /* racecar1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1D9B8E2088B41900EA79C7 /* Build configuration list for PBXNativeTarget "racecar1" */;
+			buildPhases = (
+				BC1D9B622088B41700EA79C7 /* Sources */,
+				BC1D9B632088B41700EA79C7 /* Frameworks */,
+				BC1D9B642088B41700EA79C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = racecar1;
+			productName = racecar1;
+			productReference = BC1D9B662088B41700EA79C7 /* racecar1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC1D9B792088B41800EA79C7 /* racecar1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1D9B912088B41900EA79C7 /* Build configuration list for PBXNativeTarget "racecar1Tests" */;
+			buildPhases = (
+				BC1D9B762088B41800EA79C7 /* Sources */,
+				BC1D9B772088B41800EA79C7 /* Frameworks */,
+				BC1D9B782088B41800EA79C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1D9B7C2088B41800EA79C7 /* PBXTargetDependency */,
+			);
+			name = racecar1Tests;
+			productName = racecar1Tests;
+			productReference = BC1D9B7A2088B41800EA79C7 /* racecar1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC1D9B842088B41800EA79C7 /* racecar1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1D9B942088B41900EA79C7 /* Build configuration list for PBXNativeTarget "racecar1UITests" */;
+			buildPhases = (
+				BC1D9B812088B41800EA79C7 /* Sources */,
+				BC1D9B822088B41800EA79C7 /* Frameworks */,
+				BC1D9B832088B41800EA79C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1D9B872088B41800EA79C7 /* PBXTargetDependency */,
+			);
+			name = racecar1UITests;
+			productName = racecar1UITests;
+			productReference = BC1D9B852088B41800EA79C7 /* racecar1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1D9B5E2088B41700EA79C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Abayomi kazeem Sodia. ";
+				TargetAttributes = {
+					BC1D9B652088B41700EA79C7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					BC1D9B792088B41800EA79C7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BC1D9B652088B41700EA79C7;
+					};
+					BC1D9B842088B41800EA79C7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BC1D9B652088B41700EA79C7;
+					};
+				};
+			};
+			buildConfigurationList = BC1D9B612088B41700EA79C7 /* Build configuration list for PBXProject "racecar1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC1D9B5D2088B41700EA79C7;
+			productRefGroup = BC1D9B672088B41700EA79C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1D9B652088B41700EA79C7 /* racecar1 */,
+				BC1D9B792088B41800EA79C7 /* racecar1Tests */,
+				BC1D9B842088B41800EA79C7 /* racecar1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1D9B642088B41700EA79C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1D9B742088B41800EA79C7 /* LaunchScreen.storyboard in Resources */,
+				BC1D9BB42088B4DD00EA79C7 /* road7.png in Resources */,
+				BC1D9BAB2088B4DD00EA79C7 /* road10.png in Resources */,
+				BC1D9BB32088B4DD00EA79C7 /* road14.png in Resources */,
+				BC1D9BA82088B4DD00EA79C7 /* road13.png in Resources */,
+				BC1D9BAC2088B4DD00EA79C7 /* road9.png in Resources */,
+				BC1D9C452089379900EA79C7 /* car1.png in Resources */,
+				BC1D9BB22088B4DD00EA79C7 /* road12.png in Resources */,
+				BC1D9BAF2088B4DD00EA79C7 /* road4.png in Resources */,
+				BC1D9BAA2088B4DD00EA79C7 /* road16.png in Resources */,
+				BC1D9B712088B41800EA79C7 /* Assets.xcassets in Resources */,
+				BC1D9BB82088C31B00EA79C7 /* car0.png in Resources */,
+				BC1D9C3F2088FB3600EA79C7 /* car6.png in Resources */,
+				BC1D9C402088FB3600EA79C7 /* car5.png in Resources */,
+				BC1D9BAE2088B4DD00EA79C7 /* road8.png in Resources */,
+				BC1D9BA92088B4DD00EA79C7 /* road15.png in Resources */,
+				BC1D9B6F2088B41700EA79C7 /* Main.storyboard in Resources */,
+				BC1D9C472089379900EA79C7 /* car4.png in Resources */,
+				BC1D9BA62088B4DD00EA79C7 /* road5.png in Resources */,
+				BC1D9C482089379900EA79C7 /* car2.png in Resources */,
+				BC1D9BAD2088B4DD00EA79C7 /* road11.png in Resources */,
+				BC1D9BA72088B4DD00EA79C7 /* road6.png in Resources */,
+				BC1D9C462089379900EA79C7 /* car3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1D9B782088B41800EA79C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1D9B832088B41800EA79C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1D9B622088B41700EA79C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1D9B6C2088B41700EA79C7 /* ViewController.swift in Sources */,
+				BC1D9B6A2088B41700EA79C7 /* AppDelegate.swift in Sources */,
+				BC1D9BB62088C17D00EA79C7 /* racecarimageview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1D9B762088B41800EA79C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1D9B7F2088B41800EA79C7 /* racecar1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1D9B812088B41800EA79C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1D9B8A2088B41900EA79C7 /* racecar1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1D9B7C2088B41800EA79C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1D9B652088B41700EA79C7 /* racecar1 */;
+			targetProxy = BC1D9B7B2088B41800EA79C7 /* PBXContainerItemProxy */;
+		};
+		BC1D9B872088B41800EA79C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1D9B652088B41700EA79C7 /* racecar1 */;
+			targetProxy = BC1D9B862088B41800EA79C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC1D9B6D2088B41700EA79C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1D9B6E2088B41700EA79C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC1D9B722088B41800EA79C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1D9B732088B41800EA79C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1D9B8C2088B41900EA79C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC1D9B8D2088B41900EA79C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC1D9B8F2088B41900EA79C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7BMUVM6PC;
+				INFOPLIST_FILE = racecar1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodia.racecar1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC1D9B902088B41900EA79C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7BMUVM6PC;
+				INFOPLIST_FILE = racecar1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodia.racecar1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC1D9B922088B41900EA79C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7BMUVM6PC;
+				INFOPLIST_FILE = racecar1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodia.racecar1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/racecar1.app/racecar1";
+			};
+			name = Debug;
+		};
+		BC1D9B932088B41900EA79C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7BMUVM6PC;
+				INFOPLIST_FILE = racecar1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodia.racecar1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/racecar1.app/racecar1";
+			};
+			name = Release;
+		};
+		BC1D9B952088B41900EA79C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7BMUVM6PC;
+				INFOPLIST_FILE = racecar1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodia.racecar1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = racecar1;
+			};
+			name = Debug;
+		};
+		BC1D9B962088B41900EA79C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7BMUVM6PC;
+				INFOPLIST_FILE = racecar1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodia.racecar1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = racecar1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1D9B612088B41700EA79C7 /* Build configuration list for PBXProject "racecar1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1D9B8C2088B41900EA79C7 /* Debug */,
+				BC1D9B8D2088B41900EA79C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1D9B8E2088B41900EA79C7 /* Build configuration list for PBXNativeTarget "racecar1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1D9B8F2088B41900EA79C7 /* Debug */,
+				BC1D9B902088B41900EA79C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1D9B912088B41900EA79C7 /* Build configuration list for PBXNativeTarget "racecar1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1D9B922088B41900EA79C7 /* Debug */,
+				BC1D9B932088B41900EA79C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1D9B942088B41900EA79C7 /* Build configuration list for PBXNativeTarget "racecar1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1D9B952088B41900EA79C7 /* Debug */,
+				BC1D9B962088B41900EA79C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1D9B5E2088B41700EA79C7 /* Project object */;
+}
